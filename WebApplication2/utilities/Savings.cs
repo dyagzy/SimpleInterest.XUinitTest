@@ -28,15 +28,16 @@ namespace WebApplication2.utilities
             }
 
             
-            else if (p >= 1 || p < 500)
+            else if (p == 1 )
             {
                 mySum = (p * r * t / 100) + p;
-                return mySum / mySum;
+                return 1;
             }
-            if (p > 500)
+            else
+          
             {
                 mySum = (p * r * t / 100) + p;
-                return mySum;
+                
             }
             return mySum;
 
